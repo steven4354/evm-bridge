@@ -1,6 +1,8 @@
 # evm-bridge
 
 ## Installation
+Copy file .env.sample to .env
+
 ```
 npm install
 ```
