@@ -5,6 +5,7 @@ Copy file .env.sample to .env
 
 ```
 npm install
+npx hardhat compile
 ```
 
 ## Test on main nets with USDC (betwen polygon and bsc)
