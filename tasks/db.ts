@@ -2,11 +2,11 @@
 const { Client } = require("pg");
 
 const credentials = {
-	user: "jgvgiyrqwmlrde",
-	host: "ec2-54-160-109-68.compute-1.amazonaws.com",
-	database: "d3outivvmf318g",
-	password: "77571d87f87c9692c402fcdddab8d175059b65dda47baf50ab2b5f4f9aa12674",
-	port: 5432,
+	user: process.env.POSTGRES_USER,
+	host: process.env.POSTGRES_HOST,
+	database: process.env.POSTGRES_DATABASE,
+	password: process.env.POSTGRES_PASSWORD,
+	port: process.env.POSTGRES_PORT,
 	ssl: {
 		rejectUnauthorized: false
 	}
